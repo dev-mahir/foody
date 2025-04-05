@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:foody/screens/onboarding.dart';
 import 'package:foody/screens/splash.dart';
 
 void main() {
@@ -30,6 +31,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Splash());
+    return Scaffold(body: Onboarding());
   }
 }
